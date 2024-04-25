@@ -25,15 +25,15 @@ For legal issues, please contact Cell780 via discord.
     versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"
-#[[dependencies.gunsowar]]
-#    modId="cgm"
-#    mandatory=true
-#    versionRange="[1.2.5,)"
-#    ordering="NONE"
-#    side="BOTH"
-#[[dependencies.gunsowar]]
-#    modId="framework"
-#    mandatory=true
-#    versionRange="[0.2.3,)"
-#    ordering="NONE"
-#    side="BOTH"
+[[dependencies.gunsowar]]
+    modId="cgm"
+    mandatory=true
+    versionRange="[1.2.5,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gunsowar]]
+    modId="framework"
+    mandatory=true
+    versionRange="[0.2.3,)"
+    ordering="NONE"
+    side="BOTH"
