@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="GNU GPLv3"
+
+[[mods]]
+modId="gunsowar"
+version="${file.jarVersion}"
+displayName="Guns O' War"
+logoFile="gunsowar.png"
+credits="Code: Tornc, Art: Hailew"
+authors="Tornc, Hailew"
+description='''
+Lots of code copied from MoGuns-Addon (see: https://github.com/Bomb787/MoGuns-Addon/tree/1.18.2)
+For legal issues, please contact Cell780 via discord.
+'''
+[[dependencies.gunsowar]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gunsowar]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+#[[dependencies.gunsowar]]
+#    modId="cgm"
+#    mandatory=true
+#    versionRange="[1.2.5,)"
+#    ordering="NONE"
+#    side="BOTH"
+#[[dependencies.gunsowar]]
+#    modId="framework"
+#    mandatory=true
+#    versionRange="[0.2.3,)"
+#    ordering="NONE"
+#    side="BOTH"
