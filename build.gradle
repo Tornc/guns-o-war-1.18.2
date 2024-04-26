@@ -101,6 +101,7 @@ dependencies {
     // Format: implementation fg.deobf('curse.maven:<descriptor>-<projectid>:<fileids>')
     implementation fg.deobf('curse.maven:framework-549225:4613856')
     implementation fg.deobf('curse.maven:cgm-289479:4344223')
+    implementation fg.deobf('curse.maven:moguns-530863:4311737')
     implementation fg.deobf('curse.maven:rubidium-574856:4494903')
     implementation fg.deobf('curse.maven:ferritecore-429235:4074294')
     implementation fg.deobf('curse.maven:saturn-670986:5161844')

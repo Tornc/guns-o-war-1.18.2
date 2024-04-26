@@ -13,4 +13,13 @@ public class ItemInit {
     // Gun items
     public static final RegistryObject<GunItem> TEST_GUN = ITEMS.register("test_gun",
             () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
+
+    public static final RegistryObject<GunItem> TOKAREV = ITEMS.register("tokarev",
+            () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
+
+    public static final RegistryObject<GunItem> DP27 = ITEMS.register("dp27",
+            () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
+
+    public static final RegistryObject<GunItem> KAR98K = ITEMS.register("kar98k",
+            () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
 }
