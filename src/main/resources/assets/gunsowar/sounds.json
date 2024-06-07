@@ -1,0 +1,23 @@
+{
+  "item.kar98k.fire": {
+    "sounds": [
+      {
+        "name": "gunsowar:item/kar98k_fire"
+      }
+    ]
+  },
+  "item.mosin.fire": {
+    "sounds": [
+      {
+        "name": "gunsowar:item/mosin_fire"
+      }
+    ]
+  },
+  "item.mosin.reload": {
+    "sounds": [
+      {
+        "name": "gunsowar:item/mosin_reload"
+      }
+    ]
+  }
+}

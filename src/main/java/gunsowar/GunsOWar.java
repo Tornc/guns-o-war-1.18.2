@@ -2,6 +2,7 @@ package gunsowar;
 
 import com.mojang.logging.LogUtils;
 import gunsowar.init.ItemInit;
+import gunsowar.init.SoundInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -41,6 +42,7 @@ public class GunsOWar {
         MinecraftForge.EVENT_BUS.register(this);
 
         ItemInit.ITEMS.register(bus);
+        SoundInit.SOUNDS.register(bus);
 
         bus.addListener(this::onClientSetup);
     }

@@ -4,5 +4,6 @@
   "item.gunsowar.test_gun": "Test Gun",
   "item.gunsowar.tokarev": "Tokarev",
   "item.gunsowar.dp27": "Degtyaryov machine gun",
-  "item.gunsowar.kar98k": "Karabiner 98k"
+  "item.gunsowar.kar98k": "Karabiner 98k",
+  "item.gunsowar.medkit": "Medkit (non-functional)"
 }

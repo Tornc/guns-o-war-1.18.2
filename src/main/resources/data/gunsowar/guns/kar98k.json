@@ -1,25 +1,25 @@
 {
   "general": {
-    "rate": 8,
+    "rate": 28,
     "gripType": "cgm:two_handed",
-    "maxAmmo": 10,
+    "maxAmmo": 5,
     "reloadAmount": 2,
     "recoilAngle": 10.0,
-    "recoilKick": 0.5,
+    "recoilKick": 1.5,
     "recoilAdsReduction": 0.5,
     "alwaysSpread": true,
     "spread": 1.0
   },
   "projectile": {
     "item": "cgm:advanced_bullet",
-    "damage": 15.0,
+    "damage": 25.0,
     "size": 0.0625,
     "speed": 20.0,
     "life": 30
   },
   "sounds": {
     "fire": "cgm:item.rifle.fire",
-    "reload": "cgm:item.pistol.reload",
+    "reload": "gunsowar:item.mosin.reload",
     "cock": "cgm:item.rifle.cock"
   },
   "display": {

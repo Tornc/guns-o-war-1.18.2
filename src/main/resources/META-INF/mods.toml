@@ -5,14 +5,14 @@ license="GNU GPLv3"
 [[mods]]
 modId="gunsowar"
 #version="${file.jarVersion}"
-version="0.0.1-1.18.2" # <-- I somehow fucked up here
+version="0.0.2-1.18.2" # <-- I somehow fucked up here
 displayName="Guns O' War"
 logoFile="gunsowar.png"
-credits="Code: Tornc, Art: Hailew"
-authors="Tornc, Hailew"
+credits="Code: Tornc; Art: Hailew, Laggyboi, Cell780; Balancing: Cell780"
+authors="Tornc, Hailew, Laggyboi, Cell780"
 description='''
 Lots of code copied from MoGuns-Addon. see: https://github.com/Bomb787/MoGuns-Addon/tree/1.18.2
-For legal issues, please contact Cell780 (@cell780) via discord.
+For any legal complaints, please contact Cell780 (@cell780) via discord.
 '''
 [[dependencies.gunsowar]]
     modId="forge"

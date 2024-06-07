@@ -2,6 +2,7 @@ package gunsowar.init;
 
 import com.mrcrayfish.guns.item.GunItem;
 import gunsowar.GunsOWar;
+import gunsowar.items.MedkitItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,4 +23,8 @@ public class ItemInit {
 
     public static final RegistryObject<GunItem> KAR98K = ITEMS.register("kar98k",
             () -> new GunItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
+
+    // Other modded items
+    public static final RegistryObject<MedkitItem> MEDKIT = ITEMS.register("medkit",
+            () -> new MedkitItem(new Item.Properties().stacksTo(1).tab(GunsOWar.GROUP)));
 }
